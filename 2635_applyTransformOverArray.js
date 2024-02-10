@@ -8,7 +8,7 @@ var map = function(arr, fn) {
 
 // Test cases
 const arr1 = [1, 2, 3];
-const fn1 = function plusone(n,i) {
+const fn1 = function plusone(n) {
     return n + 1;
 };
 const fn2 = function plusI(n, i) {
